@@ -1,0 +1,52 @@
+{
+  "model_type": "StandardScaler + LogisticRegression",
+  "target_column": "private",
+  "target_mapping": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "positive_class": 1,
+  "feature_columns": [
+    "apps",
+    "accept",
+    "enroll",
+    "top10perc",
+    "top25perc",
+    "f_undergrad",
+    "p_undergrad",
+    "outstate",
+    "room_board",
+    "books",
+    "personal",
+    "phd",
+    "terminal",
+    "s_f_ratio",
+    "perc_alumni",
+    "expend",
+    "grad_rate"
+  ],
+  "default_values": {
+    "apps": 1558.0,
+    "accept": 1110.0,
+    "enroll": 434.0,
+    "top10perc": 23.0,
+    "top25perc": 54.0,
+    "f_undergrad": 1707.0,
+    "p_undergrad": 353.0,
+    "outstate": 9990.0,
+    "room_board": 4200.0,
+    "books": 500.0,
+    "personal": 1200.0,
+    "phd": 75.0,
+    "terminal": 82.0,
+    "s_f_ratio": 13.6,
+    "perc_alumni": 21.0,
+    "expend": 8377.0,
+    "grad_rate": 65.0
+  },
+  "python_version": "3.13.18",
+  "numpy_version": "2.5.4",
+  "scikit_learn_version": "1.7.2",
+  "pandas_version": "2.3.3",
+  "joblib_version": "1.6.0"
+}
